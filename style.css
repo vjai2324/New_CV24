@@ -1,0 +1,23 @@
+sidebar{
+    position: fixed;
+top: 250px;
+
+}
+.modal-backdrop{
+    background-color:none !important;
+    background-color: transparent;
+}
+.proifle_text{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* ---mobile device scrren  */
+@media screen and (min-width: 300px) and (max-width: 1040px) {
+    .proifle_text{
+        
+        font-size: 18px;
+        border: 0px solid red;
+        text-align: justify;
+    }
+  }
